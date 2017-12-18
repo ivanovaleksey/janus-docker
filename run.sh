@@ -16,6 +16,8 @@ docker run ${DOCKER_RUN_OPTIONS} \
     -v $(pwd):${PROJECT_DIR} \
     -p 8443:8443 \
     -p 8089:8089 \
+    -p 8188:8188 \
+    -p 8989:8989 \
     -p 5002:5002/udp \
     -p 5004:5004/udp \
     ${DOCKER_CONTAINER_NAME} \
